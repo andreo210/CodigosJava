@@ -1,0 +1,18 @@
+package streams;
+
+import java.util.function.Consumer;
+import java.util.stream.Stream;
+
+public class CriadoStreams {
+
+	public static void main(String[] args) {
+		Consumer<String> print = System.out::print;
+		
+		Consumer<Integer> println = System.out::println;
+		
+		Stream<String> langs = Stream.of("Java ", "lua ","JS  \n" );
+		langs.forEach(print);
+
+	}
+
+}

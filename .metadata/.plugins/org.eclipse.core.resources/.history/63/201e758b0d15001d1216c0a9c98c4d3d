@@ -1,0 +1,33 @@
+package coleçoes;
+
+
+
+public class Usuario {
+	
+	String nome;
+	
+	public Usuario(String nome) {
+		this.nome = nome;
+	}
+
+	@Override
+	public String toString() {
+		return "meu nome é: " + this.nome + " ";
+	}
+
+	@Override
+	public int hashCode() {
+		return 0;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		
+		Usuario other = (Usuario) obj;
+		return this.nome.equals(other.nome);
+	}
+	
+	
+	
+
+}

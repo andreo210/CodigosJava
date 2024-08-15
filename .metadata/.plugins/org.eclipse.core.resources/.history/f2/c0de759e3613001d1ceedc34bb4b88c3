@@ -1,0 +1,9 @@
+package classe;
+
+public class AreaCirc {
+
+	public AreaCirc() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

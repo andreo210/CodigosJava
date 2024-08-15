@@ -1,0 +1,9 @@
+package classe;
+
+public class ProdutoComMetodo {
+
+	public ProdutoComMetodo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
